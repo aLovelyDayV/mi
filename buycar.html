@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的购物车-小米商城</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/buycar.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/buycar.js"></script>
+</head>
+
+<body>
+    <div class="cart-header">
+        <div class="w">
+            <div class="logo fl">
+                <h1><a href="index.html" title="小米商城">小米商城</a></h1>
+            </div>
+            <h2 class="car-title fl">我的购物车</h2>
+            <p class="fl">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+            <div class="login fr">
+                <a href="#">登录</a>
+                <span>|</span>
+                <a href="#">注册</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="cart-item-list w">
+        <div class="item-list-title">
+            <div class="col-check fl">
+                <input type="checkbox" name="" id="all" >&nbsp;&nbsp;&nbsp;全选
+            </div>
+            <div class="col-name fl">商品名称</div>
+            <div class="col-price fl">单价</div>
+            <div class="col-num fl">数量</div>
+            <div class="col-total fl">小计</div>
+            <div class="col-action fl">操作</div>
+        </div>
+        <div class="item-box">
+            <div class="col-checks fl">
+                <input type="checkbox"class="item-checkbox">
+            </div>
+            <div class="col-img fl">
+                <img src="upload/cart1.jpg" alt="">
+            </div>
+            <div class="col-name fl">米家毛球修剪器 白色</div>
+            <div class="col-price fl">39.90<span>元</span></div>
+            <div class="col-num fl">
+                <button class="fl minus">-</button>
+                <input type="text" class="fl itxt" value="1">
+                <button class="fl plus">+</button>
+            </div>
+
+            <div class="subtotal fl">39.90<span>元</span></div>
+            <div class="col-action fl"><a href="javascript:;" class="del">删除</a></div>
+        </div>
+        <div class="item-box">
+            <div class="col-checks fl">
+                <input type="checkbox"class="item-checkbox">
+            </div>
+            <div class="col-img fl">
+                <img src="upload/cart2.jpg" alt="">
+            </div>
+            <div class="col-name fl">小米巨能写中性笔10支装 黑色 10支装</div>
+            <div class="col-price fl">9.99<span>元</span></div>
+            <div class="col-num fl">
+                <button class="fl minus">-</button>
+                <input type="text" class="fl itxt" value="1">
+                <button class="fl plus">+</button>
+            </div>
+            <div class="subtotal fl">9.99<span>元</span></div>
+            <div class="col-action fl"><a href="javascript:;" class="del">删除</a></div>
+        </div>
+        <div class="item-box">
+            <div class="col-checks fl">
+                <input type="checkbox"class="item-checkbox">
+            </div>
+            <div class="col-img fl">
+                <img src="upload/cart3.jpg" alt="">
+            </div>
+            <div class="col-name fl">米家除螨仪 白色</div>
+            <div class="col-price fl">199.00<span>元</span></div>
+            <div class="col-num fl">
+                <button class="fl minus">-</button>
+                <input type="text" class="fl itxt" value="1">
+                <button class="fl plus">+</button>
+            </div>
+            <div class="subtotal fl">199.00<span>元</span></div>
+            <div class="col-action fl"><a href="javascript:;" class="del">删除</a></div>
+        </div>
+    </div>
+    <div class="item-floatbar w">
+        <div class="continue fl"><a href="#">继续购物</a></div>
+        
+        <span class="fl">共<i class="num">0</i>件商品，已选择<i class="num">0</i>件</span>
+        <div class="pay fr"><a href="#">去结算</a></div>
+        <div class="sum fr">合计：<em class="total">0</em>元</div>
+    </div>
+</body>
+
+</html>

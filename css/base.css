@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(245, 245, 245);
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #424242;
+    min-width: 1226px;
+}
+em,i {
+    font-style: normal;
+}
+a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+img {
+    vertical-align: middle;
+    bottom: 0;
+}
+input,button {
+    outline: none;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0 ;
+}
+
+.clearfix {
+    *zoom: 1;
+} 
